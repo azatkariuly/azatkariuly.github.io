@@ -1,0 +1,12 @@
+- type: news
+  title: News
+  url: / 
+- type: about
+  title: About
+  url: /about/
+- type: categories
+  title: Categories
+  url: /categories/
+- type: tags
+  title: Tags
+  url: /tags/

@@ -1,0 +1,13 @@
+---
+layout: default
+---
+
+{% include home-header.html %}
+
+<h1>{{ page.title }}</h1>
+
+{%- assign taxonomies = site.posts | group_by_exp: "post", "post.date | date: '%Y'" -%}
+
+I am a Master's Student at <a href="https://www.unist.ac.kr/">UNIST</a>. Member of <a href="https://iccl.unist.ac.kr/">Intelligent Computing & Codesign Lab</a> under the supervision of Prof. <a href="https://ecl.unist.ac.kr/~jlee/">Jongeun Lee</a>.
+
+<br> My research interest includes DNN hardware accelerators and efficient deep learning.
