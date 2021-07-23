@@ -4,9 +4,6 @@
 - type: about
   title: About
   url: /about/
-- type: education
-  title: Education
-  url: /education/
 - type: experience
   title: Experience
   url: /experience/
