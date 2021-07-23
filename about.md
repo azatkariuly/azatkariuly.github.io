@@ -1,5 +1,5 @@
 ---
-layout: archive-news #page
-permalink: /news/
-title: News
+layout: archive-about #page
+permalink: /about/
+title: About
 ---

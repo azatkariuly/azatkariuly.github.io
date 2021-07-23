@@ -4,12 +4,31 @@ layout: default
 
 {% include home-header.html %}
 
-<h1>A Short Bio</h1>
+<h1>ADNSADNMASKDA</h1>
 
-{%- assign taxonomies = site.posts | group_by_exp: "post", "post.date | date: '%Y'" -%}
+<div class="posts">
+  {% for post in paginator.posts %}
+  <section class="post-entry">
+    <h2 class="post-title">
+      <a href="{{ post.url | relative_url }}">
+        {{ post.title }}
+      </a>
+    </h2>
 
-Azat Azamat received his B.S. in Computer Science from <a href="https://nu.edu.kz/">Nazarbayev University</a>, Kazakhstan.
-Currently, he is studying for a M.S. in Computer Science & Engineering at <a href="https://www.unist.ac.kr/">UNIST</a>, Republic of Korea.
-In 2020, he joined <a href="https://iccl.unist.ac.kr/">Intelligent Computing & Codesign Lab (ICCL)</a> and started his work under supervision of Prof. <a href="https://ecl.unist.ac.kr/~jlee/">Jongeun Lee</a>.
-At ICCL in UNIST, they are mainly concerned with the problems of optimizing system performance and power at the intersection of software and hardware.
-Azat's current research interest include DNN hardware accelerators and efficient deep learning.
+    <div class="post-meta">
+      <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date_to_string }}</time>
+      {%- if jekyll.environment == "production" and site.disqus -%}
+        <span> • </span>
+        <a class="comment-count" href="{{ post.url | relative_url }}#disqus_thread">
+          <span class="disqus-comment-count" data-disqus-url="{{ post.url | absolute_url }}"></span>
+        </a>
+      {%- endif -%}
+    </div>
+
+    <p>{{ post.excerpt | strip_html }}</p>
+  </section>
+  {% endfor %}
+  {%- if jekyll.environment == "production" and site.disqus -%}
+    <script id="dsq-count-scr" src="//{{ site.disqus }}.disqus.com/count.js" async></script>
+  {%- endif -%}
+</div>

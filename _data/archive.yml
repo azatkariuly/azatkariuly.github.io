@@ -1,9 +1,9 @@
-- type: about
-  title: About
-  url: /
 - type: news
   title: News
-  url: /news/
+  url: / 
+- type: about
+  title: About
+  url: /about/
 - type: categories
   title: Categories
   url: /categories/
