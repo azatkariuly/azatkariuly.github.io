@@ -1,6 +1,9 @@
 - title: Email
-  url: mailto://azatkariuly@unist.ac.kr
+  url: mailto:azatkariuly@unist.ac.kr
   icon: fas fa-envelope
+- title: LinkedIn
+  url: https://linkedin.com/in/azatkariuly/
+  icon: fas fa-linkedin
 - title: Twitter
   url: https://twitter.com/azatkariuly
   icon: fab fa-twitter
