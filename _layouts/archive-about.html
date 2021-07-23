@@ -2,9 +2,9 @@
 layout: default
 ---
 
-A Short Bio
+{% include home-header.html %}
 
-<h1>{{ page.title }}</h1>
+<h1>A Short Bio</h1>
 
 {%- assign taxonomies = site.posts | group_by_exp: "post", "post.date | date: '%Y'" -%}
 
