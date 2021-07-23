@@ -51,32 +51,6 @@ It is a simple, beautiful, and powerful Jekyll theme for blogs. It is built on [
 - Support for a wide gamut of HTML elements
 - Syntax highlighting, courtesy Pygments (the Python-based code snippet highlighter)
 
-## Installation
-
-You can choose one of the following methods to install Not Pure Poole:
-
-- Directly specify the `not-pure-poole` gem.
-
-    1. Add `gem 'not-pure-poole'` into your `Gemfile`.
-    2. Add the below lines into your `_config.yml`.
-
-        ```yml
-        plugins:
-          - not-pure-poole
-        ```
-
-- If your site is hosted on GitHub Pages, you can use [`jekyll-remote-theme`](https://github.com/benbalter/jekyll-remote-theme) to import the master branch of Not Pure Poole.
-
-    1. Add `gem 'jekyll-remote-theme'` into your `Gemfile`.
-    2. Add the below lines into your `_config.yml`.
-
-        ```yml
-        plugins:
-          - jekyll-remote-theme
-
-        remote_theme: vszhub/not-pure-poole
-        ```
-
 ## Usage
 
 You can read this [example post](https://vszhub.github.io/not-pure-poole/2020/09/29/welcome-to-not-pure-poole/) to see the rendering result in this theme, and put the [source](_posts/2020-09-29-welcome-to-not-pure-poole.md) aside to learn some basic usages.
