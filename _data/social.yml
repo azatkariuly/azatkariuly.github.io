@@ -3,10 +3,7 @@
   icon: fas fa-envelope
 - title: LinkedIn
   url: https://linkedin.com/in/azatkariuly/
-  icon: fab fa-linkedin-in
-- title: Twitter
-  url: https://twitter.com/azatkariuly
-  icon: fab fa-twitter
+  icon: fab fa-linkedin
 - title: GitHub
   url: https://github.com/azatkariuly
   icon: fab fa-github
