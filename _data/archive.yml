@@ -7,9 +7,9 @@
 - type: experience
   title: Experience
   url: /experience/
-- type: categories
-  title: Categories
-  url: /categories/
+- type: publications
+  title: Publications
+  url: /publications/
 - type: tags
   title: Tags
   url: /tags/
