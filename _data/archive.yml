@@ -1,9 +1,15 @@
 - type: news
   title: News
-  url: / 
+  url: /
 - type: about
   title: About
   url: /about/
+- type: education
+  title: Education
+  url: /education/
+- type: experience
+  title: Experience
+  url: /experience/
 - type: categories
   title: Categories
   url: /categories/
