@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Quick Notes (for myself)
-date: 2021-07-23 17:26 +0900
-last_modified_at: 2021-07-23 17:29:25 +0900
+date: 2021-07-22 17:26 +0900
+last_modified_at: 2021-07-22 17:29:25 +0900
 tags: [jekyll theme, jekyll, tutorial]
 toc:  true
 ---
