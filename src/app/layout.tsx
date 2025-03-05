@@ -3,6 +3,7 @@ import { Geist, Geist_Mono } from "next/font/google";
 import { ThemeProvider } from "next-themes";
 import "./globals.css";
 import Header from "@/components/Header";
+import Footer from "@/components/Footer";
 
 export const viewport: Viewport = {
   width: "device-width",
@@ -32,7 +33,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" suppressHydrationWarning>
       <body
         className={`${geist.variable} ${geistMono.variable} bg-white tracking-tight antialiased dark:bg-zinc-950`}
       >
@@ -46,7 +47,7 @@ export default function RootLayout({
             <div className="relative mx-auto w-full max-w-screen-sm flex-1 px-4">
               <Header />
               {children}
-              {/* <Footer /> */}
+              <Footer />
             </div>
           </div>
         </ThemeProvider>
